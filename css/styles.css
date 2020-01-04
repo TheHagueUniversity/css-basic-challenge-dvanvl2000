@@ -19,10 +19,10 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #785689;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -30,7 +30,7 @@ img {
   width: 300px;
 }
 a {
-  color: #FFE66D;
+  color: #CFA9E1;
 }
 a:hover {
   text-decoration: none;
@@ -43,7 +43,7 @@ h2 {
   font-size: 45px;
 }
 h1, h2 {
-  font-family: 'Caveat', cursive;
+  font-family: 'Asap', sans-serif;
   font-weight: 400;
   margin: 0;
 }
@@ -63,7 +63,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 1px dashed #343434;
+  border-bottom: 1px dashed #413D96;
   padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -74,24 +74,24 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #2F3061;
-  color: #F7FFF7;
+  background: #9394FF;
+  color: #D6DDFF;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #F7FFF7;
+  background: #FFC5EE;
 }
 .projects a {
-  color: #2F3061;
+  color: #413D96;
 }
 .projects .btn {
-  color: #F7FFF7;
-  background: #2F3061;
+  color: #DDDCFF ;
+  background: #7D3EA4;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
@@ -109,15 +109,33 @@ header {
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #A1C6D7;
+  background: #FFEB7B;
 }
+.work-experience a {
+	color: #A45792;
+}
+	
+.work-experience .btn {
+	color: #DDDCFF;
+	background: #7D3EA4;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.work-experience .btn:hover {
+	background: rgba(47, 48, 97, 80%);
+}
+
+	
 
 
 
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/joanna-kosinska-unsplash.jpg);
+  background-image: url(https://images.unsplash.com/photo-1503551723145-6c040742065b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
@@ -130,8 +148,8 @@ header {
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #343434;
-  color: #F7FFF7;
+  background: #A45792;
+  color: #D6DDFF;
 }
 .contact-list {
   list-style-type: none;
@@ -141,3 +159,5 @@ footer {
   padding: 15px;
   display: inline-block;
 }
+
+
