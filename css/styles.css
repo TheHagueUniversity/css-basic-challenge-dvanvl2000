@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  color: #785689;
+  color: #7A664F;
   margin: 0;
   padding: 0;
   font-family: 'Raleway', sans-serif;
@@ -30,7 +30,7 @@ img {
   width: 300px;
 }
 a {
-  color: #CFA9E1;
+  color: #F7FFF7;
 }
 a:hover {
   text-decoration: none;
@@ -63,7 +63,7 @@ h3 {
   margin: 0;
 }
 .divider > section {
-  border-bottom: 1px dashed #413D96;
+  border-bottom: 1px dashed #2D6592;
   padding: 25px 0;
 }
 .divider > section:last-of-type {
@@ -74,29 +74,29 @@ h3 {
 /* Profile
 ------------------------------------*/
 header {
-  background: #9394FF;
-  color: #D6DDFF;
+  background: #FFBA51;
+  color: #FFF596;
 }
 
 
 /* Projects
 ------------------------------------*/
 .projects {
-  background: #FFC5EE;
+  background: #9CC477;
 }
 .projects a {
-  color: #413D96;
+  color: #FFF596;
 }
 .projects .btn {
-  color: #DDDCFF ;
-  background: #7D3EA4;
+  color: #FFF596 ;
+  background: #FFF596;
   text-decoration: none;
   padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
 .projects .btn:hover {
-  background: rgba(47, 48, 97, 80%);
+  background: rgba(97, 48, 97, 80%);
 }
 .project-item {
   overflow: hidden;
@@ -112,13 +112,12 @@ header {
   background: #FFEB7B;
 }
 .work-experience a {
-	color: #A45792;
+	color: #B6A483;
 }
 	
 .work-experience .btn {
 	color: #DDDCFF;
-	background: #7D3EA4;
-	text-decoration: none;
+	background: #2D6592;
 	padding: 8px;
 	border-radius: 4px;
 	display: inline-block;
@@ -145,17 +144,50 @@ header {
 }
 
 
+/* Gallery
+------------------------------------*/
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+}
+
+.row: :after {
+	content: "drawing";
+	clear: both;
+	display: table;
+}
+
+.row: :after {
+	content: "shopping";
+	clear: both;
+	display: table;
+}
+
+.row: :after {
+	content: "exploring";
+	clear: both;
+	display: table;
+	
+
+}
+
+.text {
+	color: #FFEB7B;
+}
+
 /* Contact Info
 ------------------------------------*/
 footer {
-  background: #A45792;
-  color: #D6DDFF;
+  background: #2D6592;
+  color: #D6DDEE;
 }
 .contact-list {
   list-style-type: none;
   padding: 0;
 }
 .contact-list a {
+  color: #F7FFF7;
   padding: 15px;
   display: inline-block;
 }
